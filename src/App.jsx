@@ -18,9 +18,9 @@ function App() {
    <Nav/>
    <Home/>
    <About/>
-   <Ourserve/>
    <Service/>
-   <Guarenty/>
+   <Ourserve/>
+
    <Contact/>
 
   </div>

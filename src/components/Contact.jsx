@@ -43,8 +43,8 @@ const Contact = () => {
                   {/* <MapPin size={20} /> */}
                 </div>
                 <div>
-                  <p className="text-sm ">Address</p>
-                  <p className="font-medium">123 Repair Street, Fixville, FX 12345</p>
+                  <p className="text-sm ">Location</p>
+                  <p className="font-medium">Bhopal Indore Gwalior Bilaspur Bhilai Durg Charoda</p>
                 </div>
               </div>
             </div>
@@ -84,6 +84,7 @@ const Contact = () => {
                 <option value="">Select a service</option>
                 <option value="washing-machine">Washing Machine Repair</option>
                 <option value="microwave">Microwave Repair</option>
+                <option value="air-conditioner">Air Conditioner Repair</option>
                 <option value="refrigerator">Refrigerator Repair</option>
                 <option value="other">Other</option>
               </select>
