@@ -14,11 +14,11 @@ const Contact = () => {
       
       <div className="grid md:grid-cols-2 gap-8">
         <div>
-          <div className="bg-repair-light-gray p-6 rounded-xl mb-6 text-white bg-blue-500">
+          <div className="bg-repair-light-gray p-6 rounded-xl mb-6  ">
             <h3 className="font-medium text-xl mb-4">Contact Information</h3>
             
             <div className="space-y-4 ">
-              <div className="flex items-center text-white gap-3">
+              <div className="flex items-center  gap-3">
                 <div className="w-10 h-10 bg-repair-blue rounded-full flex items-center justify-center text-white">
                   {/* <Phone size={20} /> */}
                 </div>
@@ -42,10 +42,7 @@ const Contact = () => {
                 <div className="w-10 h-10 bg-repair-blue rounded-full flex items-center justify-center text-white">
                   {/* <MapPin size={20} /> */}
                 </div>
-                <div>
-                  <p className="text-sm ">Location</p>
-                  <p className="font-medium">Bhopal Indore Gwalior Bilaspur Bhilai Durg Charoda</p>
-                </div>
+              
               </div>
             </div>
           </div>
@@ -53,25 +50,25 @@ const Contact = () => {
          
         </div>
         
-        <div className="bg-blue-500 text-white p-6 rounded-xl shadow-sm border border-gray-100">
+        <div className=" p-6 rounded-xl shadow-sm border border-gray-100">
           <h3 className="font-medium text-xl mb-4">Send Us a Message</h3>
           
           <form className="space-y-4">
             <div className="grid grid-cols-2 gap-4">
               <div className=' t-form block w-full'>
                 <label htmlFor="name" className="block text-sm font-medium mb-1">Name</label>
-                <input type="text" className='bg-white w-40 text-black rounded-2xl' name='name' />
+                <input type="text" className=' w-40 text-black border-2 rounded-2xl' name='name' />
               </div>
               <div className='t-form'>
                 <label htmlFor="phone" className="block text-sm font-medium mb-1">Phone</label>
-                <input type="text" className='bg-white w-40 text-black rounded-2xl' name='phone' />
+                <input type="text" className='bg-white w-40 text-black border-2 rounded-2xl' name='phone' />
                 {/* <Input id="phone" placeholder="Your phone number" /> */}
               </div>
             </div>
             
             <div className='t-form '>
               <label htmlFor="email" className="block text-sm font-medium mb-1">Email</label>
-              <input type="email" className='bg-white text-black rounded-2xl' name="email"  />
+              <input type="email" className='border-2 text-black rounded-2xl' name="email"  />
               {/* <Input id="email" type="email" placeholder="Your email address" /> */}
             </div>
             

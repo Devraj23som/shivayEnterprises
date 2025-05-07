@@ -6,7 +6,7 @@ const About = () => {
   return (
  
 
-   <div id='about' className='w-screen h-7/10  md:overflow-hidden    bg-blue-500 text-white'>
+   <div id='about' className='w-screen   md:overflow-hidden   '>
 
         <div className='w-full h-full'>
             <div className='text-center underline'>
@@ -19,17 +19,7 @@ Repair Service Center
 Authorized Expert Technician
 More Then 75,000 Happy Customers</h3>
             </div>
-            <div className=' w-full h-8/10 pb-5   flex justify-center'>
-              <div className='card-section flex-col md:flex-row flex flex-wrap gap-4 justify-center items-center w-8/10 h-fit '>
-            <h3 className='text-3xl text-white text-center'>Locations</h3>
-              {city.map((e,i)=>
-              
-            <h3>{e}</h3>
-              
-              )}
-                
-              </div>
-            </div>
+           
         </div>
     </div>
 
