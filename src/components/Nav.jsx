@@ -2,8 +2,8 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div className='w-full h-30 py-3 flex border-b-2 items-center justify-between'>
-        <div className="logo w-50 h-full">
+    <div className='w-full h-50 py-3 mb-1 flex border-b-2 items-center justify-between'>
+        <div className="logo w-60 h-full">
             <img src="/shivayenterprises_Logo.jpg" alt="xyz" />
         </div>
         <div className='hidden md:visible w-40 h-full md:flex pr-5 justify-end items-center'>

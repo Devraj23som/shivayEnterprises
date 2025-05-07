@@ -21,15 +21,12 @@ More Then 75,000 Happy Customers</h3>
             </div>
             <div className=' w-full h-8/10 pb-5   flex justify-center'>
               <div className='card-section flex-col md:flex-row flex flex-wrap gap-4 justify-center items-center w-8/10 h-fit '>
-            <h3 className='text-3xl text-center'>Locations</h3>
-              {city.map((e,i)=><div key={i} className='card p-2 text-black w-1/2 md:w-1/4 h-1/4 bg-white rounded-2xl'>
+            <h3 className='text-3xl text-white text-center'>Locations</h3>
+              {city.map((e,i)=>
               
-             <div className='flex flex-col justify-center items-center'>
-            {e}
-             
-             </div>
+            <h3>{e}</h3>
               
-              </div>)}
+              )}
                 
               </div>
             </div>
