@@ -58,18 +58,18 @@ const Contact = () => {
           
           <form className="space-y-4">
             <div className="grid grid-cols-2 gap-4">
-              <div>
+              <div className=' t-form block w-full'>
                 <label htmlFor="name" className="block text-sm font-medium mb-1">Name</label>
-                <input type="text" className='bg-white text-black rounded-2xl' name='name' />
+                <input type="text" className='bg-white w-40 text-black rounded-2xl' name='name' />
               </div>
-              <div>
+              <div className='t-form'>
                 <label htmlFor="phone" className="block text-sm font-medium mb-1">Phone</label>
-                <input type="text" className='bg-white text-black rounded-2xl' name='phone' />
+                <input type="text" className='bg-white w-40 text-black rounded-2xl' name='phone' />
                 {/* <Input id="phone" placeholder="Your phone number" /> */}
               </div>
             </div>
             
-            <div>
+            <div className='t-form '>
               <label htmlFor="email" className="block text-sm font-medium mb-1">Email</label>
               <input type="email" className='bg-white text-black rounded-2xl' name="email"  />
               {/* <Input id="email" type="email" placeholder="Your email address" /> */}
