@@ -9,11 +9,16 @@ const Ourserve = () => {
         <div className='content w-full h-9/10  flex justify-center '>
 
         <div className=' w-8/10 h-fit mt-3 '>
-                <div className='head'>
+                <div className='head pb-3'>
+                    <div>
+                        <img src="/productlogos.jpg" alt="logo" />
+                    </div>
+                    <div >
+                        <img  src="/productlogos2.jpg" alt="logo" />
+                    </div>
+                    {/* <h2>
 
-                    <h2>
-
-Washing Machine, Refrigerator repair service Center, Fridge Service Centre.  Fridge Customer Care Number, Fridge Repairing, Washing Machine Service Center, Washing machine Repair, Washing Machine Repairing, AC service, AC Repair, AC Customer Care Number, Led TV Repair Service Centre Best Service</h2>
+Washing Machine, Refrigerator repair service Center, Fridge Service Centre.  Fridge Customer Care Number, Fridge Repairing, Washing Machine Service Center, Washing machine Repair, Washing Machine Repairing, AC service, AC Repair, AC Customer Care Number, Led TV Repair Service Centre Best Service</h2> */}
                 </div>
                 <div className="ac-reapir">
                     <h2 className='text-3xl text-center font-bold'>AC Repair Service</h2>
