@@ -12,7 +12,7 @@ const Service = () => {
             <div className="card w-80 md:w-1/5 h-fit rounded-2xl overflow-hidden border-2">
                 <div className="card-body flex flex-col gap-2 p-2">
                     <div className='card-image w-full h-5/10 rounded-2xl overflow-hidden'>
-                        <img  src="/shivayWashing.jpg" alt="washing machine" />
+                        <img  src="/shivayWashing2.jpg" alt="washing machine" />
                     </div>
                     <h5 className="card-title text-2xl text-center">Washing Machines</h5>
                     <p className="card-text text-center">Service Charge  Rs. 350/-</p>
@@ -32,7 +32,7 @@ const Service = () => {
             <div className="card w-80 md:w-1/5 h-fit rounded-2xl overflow-hidden border-2">
                 <div className="card-body flex flex-col gap-2 p-2">
                     <div className='card-image   rounded-2xl overflow-hidden'>
-                        <img src="/shivayRefriedge.jpeg" alt="washing machine" />
+                        <img src="/shivayRefriedge2.jpg" alt="washing machine" />
                     </div>
                     <h5 className="card-title text-2xl text-center">Refrigerator</h5>
                     <p className="card-text text-center">Service Charge  Rs. 350/-</p>
