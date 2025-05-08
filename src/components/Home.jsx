@@ -6,9 +6,9 @@ const Home = () => {
         
      <h2 className='text-4xl font-bold text-center'>Shivaay Enterprises Shop</h2>
      <div className='w-full h-8/10 md:h-7/10'>
-      <div className='home-img w-full  md:w-6/10 h-99 md:h-full  mx-auto'>
+      <div className='home-img w-100 h-70 pr-10 md:w-6/10  md:h-full  mx-auto'>
 
-      <img className='' src="/shivayenterprises_Logo.jpg" alt="" />
+      <img src="/shivayenterprises_Logo.jpg" alt="" />
       </div>
      </div>
      <div>
