@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 ">
+    <section id="contact" className="py-16 border-t-2">
     <div className="container">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
@@ -42,6 +42,11 @@ const Contact = () => {
                 <div className="w-10 h-10 bg-repair-blue rounded-full flex items-center justify-center text-white">
                   {/* <MapPin size={20} /> */}
                 </div>
+                <div>
+                  <p className="text-sm ">Location</p>
+                  <p className="font-medium">Bhopal,Indore,Bilaspur,Bhilai,Durg,<br /> Gwalior,Charoda</p>
+                </div>
+                
               
               </div>
             </div>

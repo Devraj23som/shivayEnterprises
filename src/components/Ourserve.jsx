@@ -27,7 +27,7 @@ Washing Machine, Refrigerator repair service Center, Fridge Service Centre.  Fri
                     <h2 className='text-3xl text-center font-bold'>Washing Machine Repair Service</h2>
                     <h3>A washing machine is an indispensable appliance for keeping clothes and household linens clean and fresh. When your washing machine stops working, it can be a major inconvenience, especially if you have a large family or a busy lifestyle. In such cases, it's best to seek professional repair services to restore it to its optimal performance. </h3>
                 </div>
-                <div className="Microwave-reapir">
+                <div className="Microwave-reapir border-b-2 pb-5 mb-5">
                     <h2 className='text-3xl text-center font-bold'>Microwave Repair Service</h2>
                     <h3>A microwave oven is an essential kitchen appliance that adds convenience and efficiency to your daily routine, making it easy to heat, cook, or defrost food in minutes. When your microwave malfunctions or stops working, it can disrupt your meal prep and daily schedule. Whether it's a faulty door, uneven heating, or complete power failure, professional microwave repair services can quickly diagnose and fix the issue, restoring your appliance to optimal performance and helping you get back to your normal routine without hassle.. </h3>
                 </div>
