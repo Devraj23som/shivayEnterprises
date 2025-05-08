@@ -2,18 +2,18 @@ import React from 'react'
 
 const Ourserve = () => {
   return (
-    <div id='service' className='w-screen py-10 h-auto '>
+    <div id='service' className='w-screen py-10 border-t-2 h-auto '>
         <div className='w-full'>
             <h2 className='text-4xl text-center underline'>Our Services <br /> All Major Brand</h2>
         </div>
         <div className='content w-full h-9/10  flex justify-center '>
 
         <div className=' w-8/10 h-fit mt-3 '>
-                <div className='head pb-3'>
+                <div className='head pb-3 border-b-2'>
                     <div>
                         <img src="/productlogos.jpg" alt="logo" />
                     </div>
-                    <div >
+                    <div  >
                         <img  src="/productlogos2.jpg" alt="logo" />
                     </div>
                     {/* <h2>

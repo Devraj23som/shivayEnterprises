@@ -24,7 +24,10 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm ">Phone</p>
-                  <p className="font-medium">+91 9109298201</p>
+                 <a href="tel:+919109298201">
+                  
+                   <p className="font-medium">+91 9109298201</p>
+                  </a>
                 </div>
               </div>
               
@@ -34,7 +37,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm ">Email</p>
-                  <p className="font-medium">shivayenterprises0209@gmail.com</p>
+                <a href="mailto:shivayenterprises0209@gmail.com">
+                    <p className="font-medium">shivayenterprises0209@gmail.com</p>
+                  </a>
                 </div>
               </div>
               
@@ -44,7 +49,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm ">Location</p>
-                  <p className="font-medium">Bhopal,Indore,Bilaspur,Bhilai,Durg,<br /> Gwalior,Charoda</p>
+                  <p className="font-medium">Bhopal,Indore,Bilaspur,Bhilai,Durg,<br /> Gwalior,Charoda,Raipur</p>
                 </div>
                 
               
