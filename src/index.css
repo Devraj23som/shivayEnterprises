@@ -45,3 +45,17 @@ object-position: center;
 button{
  cursor: pointer;   
 }
+input{
+    background-color: white;
+}
+.card{
+
+    box-shadow: 11px 3px 5px rgb(178, 178, 178);
+}
+.card-body{
+color: black;
+    background-color: white;
+}
+.logo{
+    filter: drop-shadow(5px 6px 2px gray);
+}

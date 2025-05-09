@@ -33,7 +33,7 @@ const sendEmail = async (e) => {
     <div className="container">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
-        <p className="text-gray-600 max-w-2xl mx-auto">
+        <p className="text-green-400 max-w-2xl mx-auto">
           Have questions or need to schedule a repair? Reach out to us through any of the methods below, 
           or fill out our contact form and we'll get back to you as soon as possible.
         </p>
@@ -50,7 +50,7 @@ const sendEmail = async (e) => {
                   {/* <Phone size={20} /> */}
                 </div>
                 <div>
-                  <p className="text-sm ">Phone</p>
+                  <p className="text-sm text-amber-300">Phone</p>
                  <a href="tel:+919109298201">
                   
                    <p className="font-medium">+91 9109298201</p>
@@ -63,7 +63,7 @@ const sendEmail = async (e) => {
                   {/* <Mail size={20} /> */}
                 </div>
                 <div>
-                  <p className="text-sm ">Email</p>
+                  <p className="text-sm text-amber-300 ">Email</p>
                 <a href="mailto:shivayenterprises0209@gmail.com">
                     <p className="font-medium">shivayenterprises0209@gmail.com</p>
                   </a>
@@ -75,7 +75,7 @@ const sendEmail = async (e) => {
                   {/* <MapPin size={20} /> */}
                 </div>
                 <div>
-                  <p className="text-sm ">Location</p>
+                  <p className="text-sm text-amber-300 ">Location</p>
                   <p className="font-medium">Bhopal,Indore,Bilaspur,Bhilai,Durg,<br /> Gwalior,Charoda,Raipur</p>
                 </div>
                 
@@ -83,14 +83,14 @@ const sendEmail = async (e) => {
               </div>
               <div className='w-full mt-20'>
               <a href="tel:+919109298201">
-                <div className='w-full  text-2xl font-bold text-center bg-orange-500 text-white'>
+                <div className='w-full  text-2xl rounded-2xl text-center bg-orange-500 text-white'>
                 
                   <button >Click for Call </button>
                 </div>
                   </a>
                 <a href="https://wa.me/+919109298201?text=Hello" target="_blank" rel="noopener noreferrer">
                 
-                  <RiWhatsappLine className='absolute bottom-15 right-5 bg-white rounded-2xl' color='green' size={50}/>
+                  <RiWhatsappLine className='absolute bottom-15 right-5  rounded-2xl' color='green' size={50}/>
                 </a>
               </div>
             </div>
@@ -140,7 +140,7 @@ const sendEmail = async (e) => {
               <label htmlFor="message" className="block text-sm font-medium mb-1">Message</label>
               {/* <Textarea id="message" placeholder="Describe your issue" rows={4} /> */}
             </div>
-            <button onClick={sendEmail} className="bg-blue-500 hover:bg-blue-700 p-2 text-center text-white text-lg  border-1 border-white 
+            <button onClick={(e)=>sendEmail(e)} className="rounded-2xl bg-orange-500 hover:bg-orange-700 p-2 text-center text-white text-lg  border-1 border-white 
             " >Submit</button>
             {/* <Button className="w-full bg-repair-orange hover:bg-repair-blue text-white">
               Submit Request

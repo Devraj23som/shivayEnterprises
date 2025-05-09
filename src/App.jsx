@@ -14,13 +14,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-  <div className='w-lvw h-lvh overflow-x-hidden'>
+  <div className='w-lvw text-gray-300 bg-black h-lvh overflow-x-hidden'>
    <Nav/>
    <Home/>
    <About/>
    <Service/>
    <Ourserve/>
-
    <Contact/>
 
   </div>
