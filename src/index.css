@@ -50,12 +50,16 @@ input{
 }
 .card{
 
-    box-shadow: 11px 3px 5px rgb(178, 178, 178);
+    box-shadow: 11px 3px 5px rgb(205, 92, 36);
 }
 .card-body{
 color: black;
-    background-color: white;
+    background-color: rgb(97, 215, 205);
 }
 .logo{
     filter: drop-shadow(5px 6px 2px gray);
+}
+.home{
+    background-color: rgb(246, 167, 124);
+    color:rgb(84, 29, 29);
 }

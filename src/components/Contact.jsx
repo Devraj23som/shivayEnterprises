@@ -33,7 +33,7 @@ const sendEmail = async (e) => {
     <div className="container">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
-        <p className="text-green-400 max-w-2xl mx-auto">
+        <p className=" max-w-2xl mx-auto">
           Have questions or need to schedule a repair? Reach out to us through any of the methods below, 
           or fill out our contact form and we'll get back to you as soon as possible.
         </p>
@@ -50,7 +50,7 @@ const sendEmail = async (e) => {
                   {/* <Phone size={20} /> */}
                 </div>
                 <div>
-                  <p className="text-sm text-amber-300">Phone</p>
+                  <p className="text-sm text-red-600">Phone</p>
                  <a href="tel:+919109298201">
                   
                    <p className="font-medium">+91 9109298201</p>
@@ -63,7 +63,7 @@ const sendEmail = async (e) => {
                   {/* <Mail size={20} /> */}
                 </div>
                 <div>
-                  <p className="text-sm text-amber-300 ">Email</p>
+                  <p className="text-sm text-red-600 ">Email</p>
                 <a href="mailto:shivayenterprises0209@gmail.com">
                     <p className="font-medium">shivayenterprises0209@gmail.com</p>
                   </a>
@@ -75,7 +75,7 @@ const sendEmail = async (e) => {
                   {/* <MapPin size={20} /> */}
                 </div>
                 <div>
-                  <p className="text-sm text-amber-300 ">Location</p>
+                  <p className="text-sm text-red-600 ">Location</p>
                   <p className="font-medium">Bhopal,Indore,Bilaspur,Bhilai,Durg,<br /> Gwalior,Charoda,Raipur</p>
                 </div>
                 
@@ -90,7 +90,7 @@ const sendEmail = async (e) => {
                   </a>
                 <a href="https://wa.me/+919109298201?text=Hello" target="_blank" rel="noopener noreferrer">
                 
-                  <RiWhatsappLine className='absolute bottom-15 right-5  rounded-2xl' color='green' size={50}/>
+                  <RiWhatsappLine className='absolute bg-green-500 bottom-15 right-5  rounded-3xl text-green-800'  size={50}/>
                 </a>
               </div>
             </div>
