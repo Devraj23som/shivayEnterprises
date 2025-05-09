@@ -1,3 +1,4 @@
+import { RiWhatsappLine } from '@remixicon/react'
 import React from 'react'
 
 const Contact = () => {
@@ -12,10 +13,10 @@ const Contact = () => {
         </p>
       </div>
       
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="grid md:grid-cols-2 gap-8 ">
         <div>
-          <div className="bg-repair-light-gray p-6 rounded-xl mb-6  ">
-            <h3 className="font-medium text-xl mb-4">Contact Information</h3>
+          <div className="bg-repair-light-gray p-6 relative rounded-xl mb-6  ">
+            <h3 className="font-medium text-xl mb-4 ">Contact Information</h3>
             
             <div className="space-y-4 ">
               <div className="flex items-center  gap-3">
@@ -53,6 +54,18 @@ const Contact = () => {
                 </div>
                 
               
+              </div>
+              <div className='w-full mt-20'>
+              <a href="tel:+919109298201">
+                <div className='w-full  text-2xl font-bold text-center bg-blue-500 text-white'>
+                
+                  <button >Click for Call </button>
+                </div>
+                  </a>
+                <a href="https://wa.me/+919109298201?text=Hello" target="_blank" rel="noopener noreferrer">
+                
+                  <RiWhatsappLine className='absolute bottom-15 right-5 bg-white rounded-2xl' color='green' size={50}/>
+                </a>
               </div>
             </div>
           </div>
