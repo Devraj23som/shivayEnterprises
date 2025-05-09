@@ -81,7 +81,7 @@ const sendEmail = async (e) => {
                 
               
               </div>
-              <div className='w-full mt-20'>
+              {/* <div className='w-full mt-20'>
               <a href="tel:+919109298201">
                 <div className='w-full  text-2xl rounded-2xl text-center bg-orange-500 text-white'>
                 
@@ -92,7 +92,7 @@ const sendEmail = async (e) => {
                 
                   <RiWhatsappLine className='absolute bg-green-500 bottom-15 right-5  rounded-3xl text-green-800'  size={50}/>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           
