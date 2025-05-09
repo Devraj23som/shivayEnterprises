@@ -9,7 +9,7 @@ const Contact = () => {
   // Inside a React component
 const sendEmail = async (e) => {
   e.preventDefault();
-  const response = await fetch('http://localhost:5000/api/users/send-email', {
+  const response = await fetch('https://shivayenterprisesback.onrender.com/api/users/send-email', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
