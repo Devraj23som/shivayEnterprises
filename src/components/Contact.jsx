@@ -1,7 +1,33 @@
 import { RiWhatsappLine } from '@remixicon/react'
-import React from 'react'
+import React, { useState } from 'react'
 
 const Contact = () => {
+  const [Name, setname] = useState("");
+  const [Email, setemail] = useState("")
+  const [Service, setservice] = useState("")
+  const [Phone, setphone] = useState("")
+  // Inside a React component
+const sendEmail = async (e) => {
+  e.preventDefault();
+  const response = await fetch('http://localhost:5000/api/users/send-email', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+     
+      subject: 'User request',
+      service: Service,
+      phone: Phone,
+      name:Name,
+      email:Email
+    })
+  });
+
+  const result = await response.json();
+  alert(result.message || result.error);
+};
+
   return (
     <section id="contact" className="py-16 border-t-2">
     <div className="container">
@@ -80,25 +106,25 @@ const Contact = () => {
             <div className="grid grid-cols-2 gap-4">
               <div className=' t-form block w-full'>
                 <label htmlFor="name" className="block text-sm font-medium mb-1">Name</label>
-                <input type="text" className=' w-40 text-black border-2 rounded-2xl' name='name' />
+                <input type="text" onChange={(e) => setname(e.target.value)} className=' w-40 text-black border-2 rounded-2xl' name='name' />
               </div>
               <div className='t-form'>
                 <label htmlFor="phone" className="block text-sm font-medium mb-1">Phone</label>
-                <input type="text" className='bg-white w-40 text-black border-2 rounded-2xl' name='phone' />
+                <input type="text" onChange={(e) => setphone(e.target.value)} className='bg-white w-40 text-black border-2 rounded-2xl' name='phone' />
                 {/* <Input id="phone" placeholder="Your phone number" /> */}
               </div>
             </div>
             
             <div className='t-form '>
               <label htmlFor="email" className="block text-sm font-medium mb-1">Email</label>
-              <input type="email" className='border-2 text-black rounded-2xl' name="email"  />
+              <input type="email" onChange={(e) => setemail(e.target.value)} className='border-2 text-black rounded-2xl' name="email"  />
               {/* <Input id="email" type="email" placeholder="Your email address" /> */}
             </div>
             
             <div>
               <label htmlFor="service" className="block text-sm font-medium mb-1">Service Needed</label>
               <select 
-                id="service" 
+                id="service"  onChange={(e) => setservice(e.target.value)} required
                 className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
               >
                 <option value="">Select a service</option>
@@ -114,7 +140,7 @@ const Contact = () => {
               <label htmlFor="message" className="block text-sm font-medium mb-1">Message</label>
               {/* <Textarea id="message" placeholder="Describe your issue" rows={4} /> */}
             </div>
-            <button className="bg-blue-500 hover:bg-blue-700 p-2 text-center text-white text-lg  border-1 border-white 
+            <button onClick={sendEmail} className="bg-blue-500 hover:bg-blue-700 p-2 text-center text-white text-lg  border-1 border-white 
             " >Submit</button>
             {/* <Button className="w-full bg-repair-orange hover:bg-repair-blue text-white">
               Submit Request
