@@ -83,7 +83,7 @@ const sendEmail = async (e) => {
               </div>
               <div className='w-full mt-20'>
               <a href="tel:+919109298201">
-                <div className='w-full  text-2xl font-bold text-center bg-blue-500 text-white'>
+                <div className='w-full  text-2xl font-bold text-center bg-orange-500 text-white'>
                 
                   <button >Click for Call </button>
                 </div>
