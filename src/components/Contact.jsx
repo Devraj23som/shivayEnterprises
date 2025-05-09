@@ -99,7 +99,7 @@ const sendEmail = async (e) => {
          
         </div>
         
-        <div className=" p-6 rounded-xl shadow-sm border border-gray-100">
+        <div className=" p-6 rounded-xl shadow-sm border border-amber-500">
           <h3 className="font-medium text-xl mb-4">Send Us a Message</h3>
           
           <form className="space-y-4">

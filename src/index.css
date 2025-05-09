@@ -54,12 +54,13 @@ input{
 }
 .card-body{
 color: black;
-    background-color: rgb(97, 215, 205);
+   
 }
 .logo{
     filter: drop-shadow(5px 6px 2px gray);
 }
 .home{
-    background-color: rgb(246, 167, 124);
+    background-color: #fef9f7;
     color:rgb(84, 29, 29);
 }
+/* button=#fe7b50 */
