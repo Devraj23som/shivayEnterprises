@@ -9,11 +9,9 @@ const About = () => {
    <div id='about' className='w-screen   md:overflow-hidden   '>
 
         <div className='w-full h-full'>
-            <div className='text-center underline'>
-                
-            </div>
+            
             <div className='w-3/4 mt-10 mb-5 mx-auto'>
-              <h3 className='text-2xl text-center'>Washing Machine AC Refrigerator Microwave
+              <h3 className='text-xl text-center'>Washing Machine AC Refrigerator Microwave
 Repair Service Center
 
 <br /><br /> Authorized Expert Technician

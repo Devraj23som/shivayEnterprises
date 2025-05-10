@@ -40,7 +40,7 @@ function App() {
     
   <div  className='w-lvw   home text-gray-300 relative bg-black  overflow-x-hidden'>
   
-     <Nav/>
+     {/* <Nav/> */}
    <Home/>
    <About/>
    <Service/>
