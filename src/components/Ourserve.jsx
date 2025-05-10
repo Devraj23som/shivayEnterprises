@@ -8,7 +8,7 @@ const Ourserve = () => {
         </div> */}
         <div className='content w-full h-9/10   flex justify-center '>
 
-        <div className=' w-8/10 h-fit mt-3 '>
+        <div className=' ourserveBox w-8/10 h-fit mt-3 '>
                 {/* <div className='head pb-3 border-b-2'>
                     <div>
                         <img src="/productlogos.jpg" alt="logo" />
