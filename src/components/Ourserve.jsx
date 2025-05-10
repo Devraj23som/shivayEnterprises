@@ -21,20 +21,21 @@ const Ourserve = () => {
 Washing Machine, Refrigerator repair service Center, Fridge Service Centre.  Fridge Customer Care Number, Fridge Repairing, Washing Machine Service Center, Washing machine Repair, Washing Machine Repairing, AC service, AC Repair, AC Customer Care Number, Led TV Repair Service Centre Best Service</h2> */}
                 </div>
                 <div className="ac-reapir">
-                    <h2 className='text-3xl text-red-800 text-center font-bold'>AC Repair Service</h2>
-                    <h3>AC repair is a crucial aspect of maintaining a comfortable living or working environment, especially during the warm months. A broken air conditioner not only creates discomfort but can also lead to higher energy bills. To keep your AC unit in optimal working condition, it's important to seek professional repair services when required.</h3>
+                    <h2 className='text-3xl text-red-800 text-center font-bold'>Air Conditioner Repair
+</h2>
+                    <h3>Split Ac Repair Service & Installation Window Ac Repair Installation Inverter Non Inverter AC Repair Service Ac Jet Pump Service Ac Deep Cleaning Service Ac Pcb Board & Compressor Repair Ac Gas Charging Service</h3>
                 </div>
                 <div className="Refrigerator-reapir">
-                    <h2 className='text-3xl text-center font-bold'>Refrigerator Repair Service</h2>
-                    <h3>Refrigerator or fridge is one of the most essential appliances in any household or commercial setting. It plays a crucial role in preserving food and keeping it fresh for an extended period. When your fridge stops working, it can be a major inconvenience, especially if it's in the middle of hot summer. In such cases, it's best to seek professional repair services to restore it to its optimal performance. </h3>
+                    <h2 className='text-3xl text-center font-bold'>Refrigerator Repair </h2>
+                    <h3>Inverter Non Inverter Fridge Repair Single & Double Triple Door Fridge Repair Deep Freezer Commercial Fridge Repair Service Fridge Pcb Board & Compressor Repair Service Fridge Gas Charging Service </h3>
                 </div>
                 <div className="Washing Machine-reapir">
-                    <h2 className='text-3xl text-blue-600 text-center font-bold'>Washing Machine Repair Service</h2>
-                    <h3>A washing machine is an indispensable appliance for keeping clothes and household linens clean and fresh. When your washing machine stops working, it can be a major inconvenience, especially if you have a large family or a busy lifestyle. In such cases, it's best to seek professional repair services to restore it to its optimal performance. </h3>
+                    <h2 className='text-3xl text-blue-600 text-center font-bold'>Washing Machine Repair </h2>
+                    <h3>Fully Automatic & Semi Automatic Washing Machine Repair Front Load & Top Load Washing Machine Repair Service Washing Machine Pcb Board & Motor Repair Service </h3>
                 </div>
                 <div className="Microwave-reapir border-b-2 pb-5 mb-5">
-                    <h2 className='text-3xl text-orange-600 text-center font-bold'>Microwave Repair Service</h2>
-                    <h3>A microwave oven is an essential kitchen appliance that adds convenience and efficiency to your daily routine, making it easy to heat, cook, or defrost food in minutes. When your microwave malfunctions or stops working, it can disrupt your meal prep and daily schedule. Whether it's a faulty door, uneven heating, or complete power failure, professional microwave repair services can quickly diagnose and fix the issue, restoring your appliance to optimal performance and helping you get back to your normal routine without hassle.. </h3>
+                    <h2 className='text-3xl text-orange-600 text-center font-bold'>Microwave Oven Repair </h2>
+                    <h3>Microwave Oven Repair Service Microwave Pcb Board Repair Microwave Oven Magnetron Repair Service Microwave Transformer Repair Service Microwave Switch Repair Service </h3>
                 </div>
                 <div className="content-points">
                     <div className="point-box">

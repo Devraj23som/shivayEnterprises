@@ -9,7 +9,7 @@ const Service = () => {
             <p className='w-3/4 mt-10 mb-10 mx-auto text-center'>We provide expert repair services for a wide range of household appliances. Our technicians are fully trained and equipped to handle all your repair needs.</p>
         </div>
         <div className='w-full h-full md:px-5 flex flex-col justify-between items-center md:flex-row gap-2 mt-2 '>
-            <div className="card w-80 md:w-1/5 h-fit rounded-2xl overflow-hidden border-2">
+            <div className="card w-100 md:w-1/5 h-fit rounded-2xl overflow-hidden ">
                 <div className="card-body flex flex-col gap-2 p-2">
                     <div className='card-image w-full h-5/10 rounded-2xl overflow-hidden'>
                         <img  src="/shivayWashing2.jpg" alt="washing machine" />
@@ -19,7 +19,7 @@ const Service = () => {
                    
                 </div>
             </div>
-            <div className="card w-80 md:w-1/5 h-fit rounded-2xl overflow-hidden border-2">
+            <div className="card w-100 md:w-1/5 h-fit rounded-2xl overflow-hidden ">
                 <div className="card-body flex flex-col gap-2 p-2">
                     <div className='card-image w-full h-fit rounded-2xl overflow-hidden'>
                         <img  src="/shivayAC2.jpg" alt="washing machine" />
@@ -29,7 +29,7 @@ const Service = () => {
                    
                 </div>
             </div>
-            <div className="card w-80 md:w-1/5 h-fit rounded-2xl overflow-hidden border-2">
+            <div className="card w-100 md:w-1/5 h-fit rounded-2xl overflow-hidden ">
                 <div className="card-body flex flex-col gap-2 p-2">
                     <div className='card-image   rounded-2xl overflow-hidden'>
                         <img src="/shivayRefriedge2.jpg" alt="washing machine" />
@@ -39,7 +39,7 @@ const Service = () => {
                    
                 </div>
             </div>
-            <div className="card w-80 md:w-1/5 h-fit rounded-2xl overflow-hidden border-2">
+            <div className="card w-100 md:w-1/5 h-fit rounded-2xl overflow-hidden">
                 <div className="card-body flex flex-col gap-2 p-2">
                     <div className='card-image h-60  rounded-2xl overflow-hidden'>
                         <img src="/shivayMicrowave3.jpg" alt="washing machine" />

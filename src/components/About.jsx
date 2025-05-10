@@ -16,7 +16,7 @@ const About = () => {
               <h3 className='text-2xl text-center'>Washing Machine AC Refrigerator Microwave
 Repair Service Center
 
-Authorized Expert Technician
+<br /><br /> Authorized Expert Technician
 More Then 75,000 Happy Customers</h3>
             </div>
            

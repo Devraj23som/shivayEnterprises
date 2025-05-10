@@ -141,7 +141,11 @@ const sendEmail = async (e) => {
               {/* <Textarea id="message" placeholder="Describe your issue" rows={4} /> */}
             </div>
             <button onClick={(e)=>sendEmail(e)} className="rounded-2xl bg-orange-500 hover:bg-orange-700 p-2 text-center text-white text-lg  border-1 border-white 
-            " >Submit</button>
+            " >Submit</button> <br />
+             <a href="tel:+919109298201">
+              <button className="rounded-2xl bg-orange-500 hover:bg-orange-700 p-2 text-center text-white text-lg  border-1 border-white 
+            ">Call Now</button>
+             </a>
             {/* <Button className="w-full bg-repair-orange hover:bg-repair-blue text-white">
               Submit Request
             </Button> */}
