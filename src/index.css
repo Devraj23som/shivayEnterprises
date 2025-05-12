@@ -68,6 +68,6 @@ input{
     border-bottom: 2px solid ;
 }
 .card{
-    background-color: #fe6800;
+    /* background-color: #fe6800; */
     color:rgb(84, 29, 29);
 }
