@@ -9,16 +9,7 @@ const Service = () => {
             <p className='w-3/4 mt-10 mb-10 mx-auto text-center'>We provide expert repair services for a wide range of household appliances. Our technicians are fully trained and equipped to handle all your repair needs.</p>
         </div>
         <div className='w-full h-full md:px-5 text-orange-500 flex flex-col justify-between items-center md:flex-row gap-2 mt-2 '>
-            <div className="card w-100 md:w-1/5 h-fit rounded-2xl overflow-hidden ">
-                <div className="card-body flex flex-col gap-2 p-2">
-                    <div className='card-image w-full h-5/10 rounded-2xl overflow-hidden'>
-                        <img  src="/shivayWashing3.jpg" alt="washing machine" />
-                    </div>
-                    <h5 className="card-title text-2xl text-center">Washing Machines Repair</h5>
-                    <p className="card-text text-center">Service Charge  Rs. 350/-</p>
-                   
-                </div>
-            </div>
+            
             <div className="card w-100 md:w-1/5 h-fit rounded-2xl overflow-hidden ">
                 <div className="card-body flex flex-col gap-2 p-2">
                     <div className='card-image w-full h-fit rounded-2xl overflow-hidden'>
@@ -35,6 +26,16 @@ const Service = () => {
                         <img src="/shivayRefriedge3.jpg" alt="washing machine" />
                     </div>
                     <h5 className="card-title text-2xl text-center">Refrigerator Repair</h5>
+                    <p className="card-text text-center">Service Charge  Rs. 350/-</p>
+                   
+                </div>
+            </div>
+            <div className="card w-100 md:w-1/5 h-fit rounded-2xl overflow-hidden ">
+                <div className="card-body flex flex-col gap-2 p-2">
+                    <div className='card-image w-full h-5/10 rounded-2xl overflow-hidden'>
+                        <img  src="/shivayWashing3.jpg" alt="washing machine" />
+                    </div>
+                    <h5 className="card-title text-2xl text-center">Washing Machines Repair</h5>
                     <p className="card-text text-center">Service Charge  Rs. 350/-</p>
                    
                 </div>
