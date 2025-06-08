@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className=' w-full  h-8/10 md:h-screen pt-5 flex flex-col  justify-center items-center   overflow-x-hidden'>
+    <div className=' w-full  h-9/10 md:h-screen pt-5 flex flex-col  justify-center items-center   overflow-x-hidden'>
         
      <h2 className='text-3xl text-orange-500 font-bold text-center'>Shivaay Enterprises Shop</h2>
      <div className='w-full h-8/10 md:h-7/10'>
@@ -18,6 +18,11 @@ const Home = () => {
      <div className=' w-7/10 p-2 mx:auto '>
      <a href={`tel:${'+919109298201'}`}>
        <h3 className='rounded-2xl text-2xl text-center bg-orange-500 text-white'>Call Now Service Center <br />+91 9109298201</h3>
+      </a>
+     </div>
+     <div className=' w-7/10 p-2 mx:auto '>
+     <a href={`tel:${'18002122886'}`}>
+       <h3 className='rounded-2xl text-2xl text-center bg-orange-500 text-white'>Call On Toll-Free Number <br />18002122886</h3>
       </a>
      </div>
        
