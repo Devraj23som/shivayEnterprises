@@ -21,7 +21,7 @@ const Home = () => {
       </a>
      </div>
      <div className=' w-7/10 p-2 mx:auto '>
-     <a href={`tel:${'18002122886'}`}>
+     <a href={`tel:${'+9118002122886'}`}>
        <h3 className='rounded-2xl text-2xl text-center bg-orange-500 text-white'>Call On Toll-Free Number <br />18002122886</h3>
       </a>
      </div>
