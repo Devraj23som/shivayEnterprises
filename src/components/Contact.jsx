@@ -76,7 +76,7 @@ const sendEmail = async (e) => {
                 </div>
                 <div>
                   <p className="text-sm text-red-600 ">Location</p>
-                  <p className="font-medium">Bhopal,Raipur, Nagpur,<br />,Indore,Bilaspur,Thane,<br /> Gwalior,Bhilai,Kalyan</p>
+                  <p className="font-medium">Bhopal,Raipur, Nagpur,<br />Indore,Bilaspur,Thane,<br /> Gwalior,Bhilai,Kalyan</p>
                 </div>
                 
               
