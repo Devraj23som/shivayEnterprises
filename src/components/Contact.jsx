@@ -76,7 +76,13 @@ const sendEmail = async (e) => {
                 </div>
                 <div>
                   <p className="text-sm text-red-600 ">Location</p>
-                  <p className="font-medium">Bhopal,Raipur, Nagpur,<br />Indore,Bilaspur,Thane,<br /> Gwalior,Bhilai,Kalyan</p>
+                  <p className="font-medium">
+                    <span className='font-bold'>Madhya Pradesh</span> <br />
+                    Bhopal-Indore-Gwalior,<br />
+                    <span className='font-bold'>Chhattisgarh</span> <br />
+                    Raipur-Bhilai-Bilaspur-Durg-Charoda<br />
+                    <span className='font-bold'>Maharashtra</span> <br />
+                    Thane-Kalyan</p>
                 </div>
                 
               
@@ -97,7 +103,7 @@ const sendEmail = async (e) => {
           </div>
           
          
-        </div>
+            </div>
         
         <div className=" p-6 rounded-xl shadow-sm border border-amber-500">
           <h3 className="font-medium text-xl mb-4">Send Us a Message</h3>
