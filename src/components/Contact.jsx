@@ -78,7 +78,7 @@ const sendEmail = async (e) => {
                   <p className="text-sm text-red-600 ">Location</p>
                   <p className="font-medium">
                     <span className='font-bold'>Madhya Pradesh</span> <br />
-                    Bhopal-Indore-Gwalior,<br />
+                    Bhopal-Indore-Gwalior<br />
                     <span className='font-bold'>Chhattisgarh</span> <br />
                     Raipur-Bhilai-Bilaspur-Durg-Charoda<br />
                     <span className='font-bold'>Maharashtra</span> <br />
