@@ -11,7 +11,7 @@ const About = () => {
         <div className='w-full h-full'>
             
             <div className='w-3/4 mt-10 mb-5 mx-auto'>
-              <h3 className='text-xl text-center'>Washing Machine AC Refrigerator Microwave
+              <h3 className='text-xl text-center'>Washing Machine AC Refrigerator Microwave TV
 Repair Service Center
 
 <br /><br /> Authorized Expert Technician

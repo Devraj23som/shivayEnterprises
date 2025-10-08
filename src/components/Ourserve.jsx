@@ -38,6 +38,10 @@ const Ourserve = () => {
                     <h2 className='text-2xl text-orange-500 text-center font-bold'>Microwave Oven Repair </h2>
                     <h3>Microwave Oven Repair Service Microwave Pcb Board Repair Microwave Oven Magnetron Repair Service Microwave Transformer Repair Service Microwave Switch Repair Service </h3>
                 </div>
+                <div className="my-5 TV-reapir border-b-2 pb-5 mb-5">
+                    <h2 className='text-2xl text-orange-500 text-center font-bold'>TV Repair </h2>
+                    <h3>We specialize in repairing all types and brands of televisions, including LED, LCD, Smart TVs, and Plasma TVs. Our expert technicians quickly diagnose and fix screen issues, sound problems, motherboard faults, power supply failures, and more </h3>
+                </div>
               
                 <div className='flex flex-col gap-5 satis my-5'>
                     <h3 className='text-3xl text-center font-bold text-orange-500'>Our Best Policy</h3>

@@ -12,7 +12,7 @@ const Home = () => {
       </div>
      </div>
      <div>
-      <h3 className='text-xl mt-2 text-center'>AC फ़्रिज वॉशिंग मशीन माइक्रोवेव <br /> रिपेयर सर्विस 
+      <h3 className='text-xl mt-2 text-center'>AC फ़्रिज वॉशिंग मशीन माइक्रोवेव टीवी <br /> रिपेयर सर्विस 
 सेंटर</h3>
      </div>
      <div className=' w-7/10 p-2 mx:auto '>
