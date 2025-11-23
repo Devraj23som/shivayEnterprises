@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className=' w-full  h-9/10 md:h-screen pt-5 flex flex-col  justify-center items-center   overflow-x-hidden'>
         
-     <h2 className='text-3xl text-orange-500 font-bold text-center'>Shivaay Enterprises </h2>
+     <h2 className='text-4xl  text-orange-500 font-bold text-center'>Shivaay Enterprises </h2>
      <div className='w-full h-8/10 md:h-7/10'>
       <div className='home-img  border-b-2 w-80 h-60  md:w-6/10  md:h-full  mx-auto'>
 
