@@ -44,7 +44,7 @@ function App() {
    <Home/>
    <About/>
    <Service/>
-   <Ourserve/>
+   {/* <Ourserve/> */}
    <Contact/>
    <ScrollTop/>
    {/* <div  className='w-full  sticky 

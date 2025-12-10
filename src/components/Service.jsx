@@ -16,6 +16,9 @@ const Service = () => {
                         <img  src="/shivayAC3.jpg" alt="washing machine" />
                     </div>
                     <h5 className="card-title text-2xl text-center">Air Conditioner Repair</h5>
+                    <div className='w-100 px-10'>
+                        <h3>Split Ac Repair Service & Installation Window Ac Repair Installation Inverter Non Inverter AC Repair Service Ac Jet Pump Service Ac Deep Cleaning Service Ac Pcb Board & Compressor Repair Ac Gas Charging Service</h3>
+                    </div>
                     <p className="card-text text-center">Service Charge  Rs. 450/-</p>
                    
                 </div>
@@ -26,6 +29,10 @@ const Service = () => {
                         <img src="/shivayRefriedge3.jpg" alt="washing machine" />
                     </div>
                     <h5 className="card-title text-2xl text-center">Refrigerator Repair</h5>
+                     <div className='w-100 px-10'>
+
+                    <h3>Inverter Non Inverter Fridge Repair Single & Double Triple Door Fridge Repair Deep Freezer Commercial Fridge Repair Service Fridge Pcb Board & Compressor Repair Service Fridge Gas Charging Service </h3>
+                    </div>
                     <p className="card-text text-center">Service Charge  Rs. 350/-</p>
                    
                 </div>
@@ -36,6 +43,11 @@ const Service = () => {
                         <img  src="/shivayWashing3.jpg" alt="washing machine" />
                     </div>
                     <h5 className="card-title text-2xl text-center">Washing Machines Repair</h5>
+                    <div className='w-100 px-10'>
+                       <h3>Fully Automatic & Semi Automatic Washing Machine Repair Front Load & Top Load Washing Machine Repair Service Washing Machine Pcb Board & Motor Repair Service </h3>
+
+                    
+                    </div>
                     <p className="card-text text-center">Service Charge  Rs. 350/-</p>
                    
                 </div>
@@ -46,6 +58,10 @@ const Service = () => {
                         <img src="/shivayMicrowave5.jpg" alt="washing machine" />
                     </div>
                     <h5 className="card-title text-2xl text-center">Microwave Repair</h5>
+                     <div  className='w-100 px-10'>
+
+                    <h3>Microwave Oven Repair Service Microwave Pcb Board Repair Microwave Oven Magnetron Repair Service Microwave Transformer Repair Service Microwave Switch Repair Service </h3>
+                    </div>
                     <p className="card-text text-center">Service Charge  Rs. 350/-</p>
                    
                 </div>
@@ -56,6 +72,9 @@ const Service = () => {
                         <img src="/shivaytv.jpg" alt="washing machine" />
                     </div>
                     <h5 className="card-title text-2xl text-center">TV Repair</h5>
+                      <div className='w-100 px-10'>
+     <h3 >We specialize in repairing all types and brands of televisions, including LED, LCD, Smart TVs, and Plasma TVs. Our expert technicians quickly diagnose and fix screen issues, sound problems, motherboard faults, power supply failures, and more </h3>
+                    </div>
                     <p className="card-text text-center">Service Charge  Rs. 350/-</p>
                    
                 </div>
