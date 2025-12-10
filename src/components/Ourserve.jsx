@@ -21,27 +21,6 @@ const Ourserve = () => {
 
                 </div> */}
                
-                <div className="my-5 ac-reapir">
-                    <h2 className='text-2xl text-orange-500 text-center font-bold'>Air Conditioner Repair
-</h2>
-                    <h3>Split Ac Repair Service & Installation Window Ac Repair Installation Inverter Non Inverter AC Repair Service Ac Jet Pump Service Ac Deep Cleaning Service Ac Pcb Board & Compressor Repair Ac Gas Charging Service</h3>
-                </div>
-                <div className=" my-5 Refrigerator-reapir">
-                    <h2 className='text-2xl text-center text-orange-500 font-bold'>Refrigerator Repair </h2>
-                    <h3>Inverter Non Inverter Fridge Repair Single & Double Triple Door Fridge Repair Deep Freezer Commercial Fridge Repair Service Fridge Pcb Board & Compressor Repair Service Fridge Gas Charging Service </h3>
-                </div>
-                <div className="my-5 Washing Machine-reapir">
-                    <h2 className='text-2xl text-orange-500 text-center font-bold'>Washing Machine Repair </h2>
-                    <h3>Fully Automatic & Semi Automatic Washing Machine Repair Front Load & Top Load Washing Machine Repair Service Washing Machine Pcb Board & Motor Repair Service </h3>
-                </div>
-                <div className="my-5 Microwave-reapir border-b-2 pb-5 mb-5">
-                    <h2 className='text-2xl text-orange-500 text-center font-bold'>Microwave Oven Repair </h2>
-                    <h3>Microwave Oven Repair Service Microwave Pcb Board Repair Microwave Oven Magnetron Repair Service Microwave Transformer Repair Service Microwave Switch Repair Service </h3>
-                </div>
-                <div className="my-5 TV-reapir border-b-2 pb-5 mb-5">
-                    <h2 className='text-2xl text-orange-500 text-center font-bold'>TV Repair </h2>
-                    <h3>We specialize in repairing all types and brands of televisions, including LED, LCD, Smart TVs, and Plasma TVs. Our expert technicians quickly diagnose and fix screen issues, sound problems, motherboard faults, power supply failures, and more </h3>
-                </div>
               
                 <div className='flex flex-col gap-5 satis my-5'>
                     <h3 className='text-3xl text-center font-bold text-orange-500'>Our Best Policy</h3>
