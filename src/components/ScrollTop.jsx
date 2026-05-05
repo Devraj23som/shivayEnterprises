@@ -15,13 +15,13 @@ const ScrollTop = () => {
       }`}
     >
             <div  className='w-full '>
-                <a href="https://wa.me/+919109298201?text=Hello" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/+919039470978?text=Hello" target="_blank" rel="noopener noreferrer">
                 <div className="absolute -top-15 right-5">
                     
                   <RiWhatsappLine className=' bg-green-500 bottom-15 right-5   rounded-3xl text-green-800'  size={50}/>
                 </div>
                 </a>
-              <a href="tel:+919109298201">
+              <a href="tel:+919039470978">
                 <div className='w-full h-10 text-2xl rounded-2xl text-center bg-orange-500 text-white'>
                <div className="flex items-center justify-center">
                  <RiPhoneFill size={30}/>
@@ -31,7 +31,7 @@ const ScrollTop = () => {
                   </a>
               </div>
       {/* <Button asChild size="lg" className="bg-service-orange hover:bg-service-orange/90 text-white shadow-lg">
-        <a href="tel:+11234567890" className="flex items-center gap-2">
+        <a href="tel:+919039470978" className="flex items-center gap-2">
           <Phone size={18} />
           <span>Call Now</span>
         </a>
