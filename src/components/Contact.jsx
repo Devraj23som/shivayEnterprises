@@ -89,13 +89,13 @@ const sendEmail = async (e) => {
               
               </div>
               {/* <div className='w-full mt-20'>
-              <a href="tel:+919109298201">
+              <a href="tel:+919039470978">
                 <div className='w-full  text-2xl rounded-2xl text-center bg-orange-500 text-white'>
                 
                   <button >Click for Call </button>
                 </div>
                   </a>
-                <a href="https://wa.me/+919109298201?text=Hello" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/+919039470978?text=Hello" target="_blank" rel="noopener noreferrer">
                 
                   <RiWhatsappLine className='absolute bg-green-500 bottom-15 right-5  rounded-3xl text-green-800'  size={50}/>
                 </a>
@@ -149,7 +149,7 @@ const sendEmail = async (e) => {
             </div>
             <button onClick={(e)=>sendEmail(e)} className="rounded-2xl bg-orange-500 hover:bg-orange-700 p-2 text-center text-white text-lg  border-1 border-white 
             " >Submit</button> <br />
-             <a href="tel:+919109298201" className="rounded-2xl bg-orange-500 hover:bg-orange-700 p-2 text-center text-white text-lg  border-1 border-white 
+             <a href="tel:+919039470978" className="rounded-2xl bg-orange-500 hover:bg-orange-700 p-2 text-center text-white text-lg  border-1 border-white 
             ">
               Call Now
              </a>
