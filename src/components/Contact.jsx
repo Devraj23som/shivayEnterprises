@@ -51,9 +51,9 @@ const sendEmail = async (e) => {
                 </div>
                 <div>
                   <p className="text-sm text-red-600">Phone</p>
-                 <a href="tel:+919109298201">
+                 <a href="tel:+919039470978">
                   
-                   <p className="font-medium">+91 9109298201</p>
+                   <p className="font-medium">+91 9039470978</p>
                   </a>
                 </div>
               </div>
